@@ -5673,7 +5673,7 @@
             "label": "gene,name,id"
          },
          "trackType": "CanvasFeatures",
-         "labelTranscripts:"false",
+         "labelTranscripts:false,
          "type": "CanvasFeatures",
          "urlTemplate": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/SGD/jbrowse/data/tracks/All Annotated Sequence Features/{refseq}/trackData.json"
       },
