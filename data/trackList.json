@@ -5663,9 +5663,9 @@
       {
          "compress": 0,
          "fmtDetailValue_Name": "function(name, feature) {if(feature.get('type')=='gene') {return '<a href=\"http://www.yeastgenome.org/locus/'+name+'/overview\">'+name+'</a>';} else { return name;}}",
-         "glyph": "JBrowse/View/FeatureGlyph/Box",
          "key": "All Annotated Sequence Features",
          "label": "All Annotated Sequence Features",
+         "labelTranscripts":false,
          "storeClass": "JBrowse/Store/SeqFeature/NCList",
          "style": {
             "className": "feature",
