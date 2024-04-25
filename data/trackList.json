@@ -5665,6 +5665,7 @@
          "fmtDetailValue_Name": "function(name, feature) {if(feature.get('type')=='gene') {return '<a href=\"http://www.yeastgenome.org/locus/'+name+'/overview\">'+name+'</a>';} else { return name;}}",
          "key": "All Annotated Sequence Features",
          "label": "All Annotated Sequence Features",
+         "labelTranscripts":false,
          "storeClass": "JBrowse/Store/SeqFeature/NCList",
          "style": {
             "className": "feature",
@@ -5673,7 +5674,6 @@
             "label": "gene,name,id"
          },
          "trackType": "CanvasFeatures",
-         "labelTranscripts:false,
          "type": "CanvasFeatures",
          "urlTemplate": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/SGD/jbrowse/data/tracks/All Annotated Sequence Features/{refseq}/trackData.json"
       },
